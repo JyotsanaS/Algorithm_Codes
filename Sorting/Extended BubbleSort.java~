@@ -1,0 +1,6 @@
+//BubbleSort works by checking each adjacent element. Places maximum element at its correct place at end of each iteration. 
+//Time complexity: O(n^2) Comparisions: n(n-1)/2 Swaps is O(n^2)
+//Extended Bubblesort reduces time complexity by maintaining a flag which checks no. of swaps in each iteration. At the end of iteration if flag
+//is 0, then it means array is sorted and we come out of the bubble sort. Improves worst case to O(n). 
+
+
